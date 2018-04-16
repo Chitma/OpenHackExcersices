@@ -26,7 +26,7 @@ def get_subfolders(path):
 
 def modify_images(subfolders):
     for folder in subfolders:
-        if(os.path.exists(folder).contains('001')):
+        if(os.path.exists(folder)):
             continue
         else:
              if(os.path.exists(folder +'001')):
